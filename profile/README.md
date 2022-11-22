@@ -1,1 +1,2 @@
-Monorepo is (currently) at [translucentapp/translucent-prototype](https://github.com/translucentapp/translucent-prototype).
+# translucent
+Home page: [translucent.app](https://www.translucent.app/)
