@@ -2,7 +2,7 @@
 
 ## Background
 - Translucent was founded by CEO Michael Wood, who had previously co-founded Dext/Recipt Bank, and is backed by some of the biggest names in the accounting space. 
-- Launched in 2022, London-based Translucent has built a team of 16 people across Europe and has [raised £2.7M pre-seed](https://www.translucent.io/blog/pre-seed).
+- Launched in 2022, London-based Translucent has built a team of 32 people across Europe and has raised £2.7M pre-seed and [£5M seed](https://www.translucent.io/blog/seed).
 
 ## The problem
 - Current SMB accounting systems are designed to hold the data of a single company in a single location. 
@@ -17,10 +17,10 @@
 - Our list of apps is growing: [Search](https://www.translucent.io/search), [Group Reporting](https://www.translucent.io/group-reporting), [Live Sheets](https://www.translucent.io/live-sheets), [Financial Close](https://www.translucent.io/financial-close) and more to come.
 
 ## Stack stuff
-- The Apps team is building a Next.js super-app running on Fly.io. We love Prisma, tRPC and have a growing component library of top-notch, accessible UI and UX. We use Postgres, Auth0, Cerbos and other things that keep us productive.
-- We're fully instrumented to understand how our app works (and doesn't) and are improving our internal testing and QA every week. We use a lot of CI, Codecov, Sentry, Axiom and things like that, along with Prometheus and Grafana.
-- The Platform team runs a mixed house of batchy stuff (Prefect on GKE), streaming stuff (Kafka, bytewax), search indexes (Typesense) and lots of Pydantic and similar to validate models. Our goal is to scale and create incredible DX for our devs and response times for our users.
-- Our APIs and data are global and replicated on Fly, we check them with Checkly, shift them with Airbyte and Snowflake. We're enabling top-notch internal BI processes, along with Data Science enrichment that we can feed back to our users.
+- The Apps team is building a Next.js super-app running on Fly.io. We love Prisma, tRPC and have a growing component library of top-notch, accessible UI and UX. We use Postgres, Auth0 and other things that keep us productive.
+- We're fully instrumented to understand how our app works (and doesn't) and are improving our internal testing and QA every week. We use Github Actions, Sentry and things like that, along with Prometheus and Grafana.
+- The Platform team runs a mixed house of batchy stuff (Prefect on GKE), streaming stuff (Kafka), search indexes (Elastic) and lots of Pydantic and similar to validate models. Our goal is to scale and create incredible DX for our devs and response times for our users.
+- Our APIs and data are on GKE, we replicate them with Airbyte and Snowflake. We're enabling top-notch internal BI processes, along with Data Science enrichment that we can feed back to our users.
 
 ## Join us
 We're looking for exceptional people to join our team.
